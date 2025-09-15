@@ -12,6 +12,7 @@ Main Features to Highlight:
 ✅ Responsive design
 ✅ TypeScript implementation
 ✅ Data export capabilities
+
 Technical Highlights:
 React 18 with hooks
 TypeScript for type safety
