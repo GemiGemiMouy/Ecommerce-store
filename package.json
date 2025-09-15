@@ -1,6 +1,20 @@
 {
   "name": "ecommerce-store",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A modern, full-featured ecommerce application built with React, TypeScript, and Tailwind CSS. Features dark mode, profile management, shopping cart, wishlist, and advanced debugging tools.",
+  "keywords": [
+    "react",
+    "typescript",
+    "ecommerce",
+    "tailwindcss",
+    "shopping-cart",
+    "dark-mode",
+    "profile-management",
+    "modern-ui",
+    "responsive-design"
+  ],
+  "author": "Seakmouy Seng (Gemi)",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -13,16 +27,18 @@
     "@types/react-dom": "^19.1.9",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,5 +56,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
   }
 }
