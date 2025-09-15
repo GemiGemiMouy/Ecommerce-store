@@ -1,6 +1,7 @@
 # 🛍️ Ecommerce Store
 
 A modern, full-featured ecommerce application built with React, TypeScript, and Tailwind CSS. This project showcases a complete online shopping experience with advanced features like dark mode, profile management, shopping cart, wishlist, and comprehensive debugging tools.
+
 Main Features to Highlight:
 ✅ Profile management with avatar upload
 ✅ Advanced debugging tools
